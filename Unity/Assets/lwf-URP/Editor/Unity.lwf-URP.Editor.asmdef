@@ -1,0 +1,16 @@
+{
+    "name": "Unity.lwf-URP.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ddafca1335d43440e8868090f0c38348"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
