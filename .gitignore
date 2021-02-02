@@ -1,0 +1,12 @@
+Unity/Assets/Resources/lwfdata
+Unity/Assets/Resources/lwfdata.meta
+Unity/Library
+Unity/Temp
+Unity/Logs
+Unity/UserSettings
+Unity/obj
+.vscode
+*.csproj
+*.sln
+.*
+!.gitkeep
