@@ -1,0 +1,9 @@
+{
+  "name": "com.gree.lwf-URP",
+  "version": "0.0.1",
+  "unity": "2020.2",
+  "unityRelease": "2f1",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "10.2.2"
+  }
+}
