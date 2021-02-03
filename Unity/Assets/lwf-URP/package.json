@@ -1,6 +1,6 @@
 {
   "name": "com.gree.lwf-urp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "LWF URP",
   "description": "This is an example package",
   "unity": "2020.2",
