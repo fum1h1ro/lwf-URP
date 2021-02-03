@@ -21,9 +21,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Linq;
 using UnityEngine;
 using UnityEditor;
-using UnityEditorInternal;
  
 [CanEditMultipleObjects()]
 [CustomEditor(typeof(LWFObject), true)]
@@ -75,10 +75,6 @@ public class LWFObjectEditor : Editor
  
 	public string[] GetSortingLayerNames()
 	{
-		Type internalEditorUtilityType = typeof(InternalEditorUtility);
-		PropertyInfo sortingLayersProperty =
-			internalEditorUtilityType.GetProperty("sortingLayerNames",
-				BindingFlags.Static | BindingFlags.NonPublic);
-		return (string[])sortingLayersProperty.GetValue(null, new object[0]);
+        return SortingLayer.layers.Select(x => x.name).ToArray();
 	}
 }

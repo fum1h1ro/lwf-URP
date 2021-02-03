@@ -5,23 +5,7 @@
         "GUID:ddafca1335d43440e8868090f0c38348"
     ],
     "includePlatforms": [
-        "Android",
-        "CloudRendering",
-        "GameCoreScarlett",
-        "GameCoreXboxOne",
-        "iOS",
-        "LinuxStandalone64",
-        "Lumin",
-        "macOSStandalone",
-        "PS4",
-        "Stadia",
-        "Switch",
-        "tvOS",
-        "WSA",
-        "WebGL",
-        "WindowsStandalone32",
-        "WindowsStandalone64",
-        "XboxOne"
+        "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
